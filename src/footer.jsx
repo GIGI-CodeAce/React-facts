@@ -34,6 +34,9 @@ function Footer() {
         background-color: hsl(0, 0%, 90%);
         transition: background-color 0.5s ease;
         }
+        nav li a{
+        color: black;
+        }
         .footer, header{
         background-color: hsl(0, 0%, 60%);
         color: black;
