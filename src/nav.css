@@ -1,0 +1,35 @@
+body{
+  background-color: hsl(0, 0%, 11%);
+  color: whitesmoke;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style-type: none;
+}
+header{
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  background-color: hsl(0, 0%, 7%) ;
+  }
+header img{
+  height: 40px;
+  padding: 10px; 
+}
+h3{
+  color: aquamarine;
+}
+header nav{
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+}
+header nav li{
+  margin-right: 15px;
+}
+header nav li:hover{
+  color: aquamarine;
+  cursor: pointer;
+}
