@@ -2,11 +2,21 @@
 main h1, footer h4, ul li{
     margin-left: 20px;
 }
-body{
+main{
     background-image: url('https://raw.githubusercontent.com/GIGIsOtherStuff/reactFacts/main/Media/react.png');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 150px;
+    text-shadow: 2px 2px 5px hsla(160, 100%, 75%, 0.5);
+
+    transition: 
+    background-image 1s ease,
+    color 0.5s ease,
+    text-shadow 0.5s ease;
+}
+main:hover{
+    background-image: url('https://raw.githubusercontent.com/GIGIsOtherStuff/reactFacts/main/Media/reactBlue.png');
+    transition: background-image 1s ease,
 }
 ul{
     line-height: 2;
@@ -16,11 +26,61 @@ ul li{
     font-size: 17px;
     list-style-type: disc;
 }
-footer{
-    background-color: hsl(0, 0%, 7%);
-    padding: 5px 0px;
-}
 ::marker {
     font-size: 1.4rem;
     color: aquamarine;
+}
+.gifContainer{
+    margin: 0;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 20px 0px;
+}
+#reactCat{
+    max-width: 50%;
+    max-height: 316px;
+    min-height: 100px;
+    display: block;
+}
+.sourceContainer{
+    display: flex;
+    justify-content: space-between; /* Distributes space between the buttons */
+    align-items: center; /* Vertically centers the buttons */
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#sources {
+     margin: 20px 10px 30px 0px;
+    border-radius: 10px;
+    width: 300px;
+    height: 25px;
+    background-color: hsl(160, 100%, 75%);
+    box-shadow: 2px 2px 5px hsla(160, 100%, 75%, 0.5);
+    border: 3px solid black;
+    font-family: Poppins;
+    transition: box-shadow 0.4s ease;
+    text-align: center;
+}
+#sources:hover{
+    box-shadow: none;
+}
+@media (max-width: 700px){
+    ul li{
+        font-size: 14px;
+    }
+    .sourceContainer{
+        width: 70%;
+    }
+}
+@media (max-width: 550px){
+    footer h4{
+        font-size: 13px;
+        width: 180px;
+    }
 }
