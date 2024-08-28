@@ -7,10 +7,10 @@ export default function NavBar() {
       <img id='react' src='https://raw.githubusercontent.com/GIGIsOtherStuff/reactFacts/main/Media/reactLogo.png' alt="React Logo" />
         <h3>React facts</h3>
         <nav>
-            <li><a href="#" target="_blank"></a>Home</li>
-            <li><a href="#" target="_blank"></a>Contact</li>
-            <li><a href="#" target="_blank"></a>Info</li>
-            <li><a href="#" target="_blank"></a>About us</li>
+            <li><a href="https://react.dev" target="_blank"></a>Home</li>
+            <li><a href="https://react.dev" target="_blank"></a>Contact</li>
+            <li><a href="https://legacy.reactjs.org" target="_blank"></a>Info</li>
+            <li><a href="https://react.dev" target="_blank"></a>About us</li>
         </nav>
       </header>
   )
