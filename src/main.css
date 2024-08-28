@@ -3,7 +3,7 @@ main h1, footer h4, ul li{
     margin-left: 20px;
 }
 body{
-    background-image: url('./Media/react.png');
+    background-image: url('https://raw.githubusercontent.com/GIGIsOtherStuff/reactFacts/main/Media/react.png');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 150px;
